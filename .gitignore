@@ -1,1 +1,4 @@
 node_modules/electron/*
+electron/
+src/auth.json
+src/auth.json
