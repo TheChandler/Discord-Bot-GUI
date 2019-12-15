@@ -1,0 +1,110 @@
+html{
+	background: #36393f;
+	color:#dcddde;
+}
+
+body {
+	margin: 0;
+	font-family: "Whitney",sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button{
+	color:#dcddde;
+	padding:10px;
+	border:0;
+	border-radius: .5em;
+	background:#202225;
+}
+#guilds{
+	float:left;
+	background:#202225;
+	width:90px;
+	height:100vh;
+}
+#channels{
+	float:left;
+	background:#2f3136;
+	width:240px;
+	height:100vh;
+}
+.channel{
+	padding:5px;
+}
+.selectedChannel{
+	padding:5px;
+	background:#393c42;
+	border-radius: .5em;
+}
+#messages{
+	position:relative;
+	float:left;
+	overflow:auto;
+	background:#36393f;
+	height:100vh;
+	max-height:100vh;
+	width:calc(100% - 510px);
+	max-width:calc(100% - 510px);
+	vertical-align: bottom;
+	display:table-cell;
+}
+.avatar{
+	max-height: 30px;
+	float:left;
+	padding:5px;
+}
+.message{
+	padding:5px;
+	border-bottom:.1px grey solid;
+	padding:20px;
+}
+.embededImage{
+	max-height: 300px;
+}
+.dateTime{
+	font-size: 0.75rem;
+	font-weight: 500;
+	color:#72767d;
+}
+
+#messageButtons{
+	position:fixed;
+}
+#members{
+	float:right;
+	background:#2f3136;
+	width:180px;
+	height:100vh;
+}
+.guildIcon{
+	max-width: 80px;
+	max-height: 80px;
+	margin:5px;
+}
+
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+::-webkit-scrollbar-track {
+  background: #2f3136; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #23272e; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2a2c30; 
+}
+::-webkit-scrollbar-corner{
+	background: #2f3136;
+}
